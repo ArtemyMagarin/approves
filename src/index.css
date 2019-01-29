@@ -116,3 +116,39 @@ footer {
     opacity: 0.9;
 }
 
+.messageWindowWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.4);
+}
+
+.newMessage {
+    border: 1px solid black;
+    padding: 40px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+
+}
+
+.newMessage a {
+    float: right;
+    margin: 5px;
+}
+
+.newMessage textarea {
+    margin-bottom: 12px;
+}
+
+.newMessage .btn-primary {
+    margin-right: 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
